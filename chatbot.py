@@ -4,7 +4,7 @@ import requests
 # It is recommended to set your Hugging Face API key as an environment variable.
 # You can get your API key from https://huggingface.co/settings/tokens
 API_KEY = os.environ.get("HUGGINGFACE_API_KEY")
-API_URL = "https://api-inference.huggingface.co/models/gpt2"
+API_URL = "https://api-inference.huggingface.co/models/openai/gpt-oss-120b"
 
 def query_huggingface_api(payload):
     """
